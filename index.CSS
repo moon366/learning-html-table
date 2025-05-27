@@ -1,0 +1,60 @@
+/* applies the same css property to all the relative elements */
+p{
+    color: aqua;
+}
+
+h1{
+    font-size: 20px;
+    color: blue;
+}
+
+.container{
+    background-color: aqua;
+}
+.aayusa{
+    background-color: black;
+    color: blueviolet;
+}
+
+/* target the child element of its parent  */
+.container p{
+    color: crimson;
+}
+
+#college{
+    background-color: chocolate;
+    color: chartreuse;
+    display: flex;
+}
+
+#college h1{
+    color: chartreuse;
+}
+img{
+    height: 300px;
+    width: 400px;
+    margin: 30px;
+     /* margin: 70px ;  */
+     /* margin-top :10px ;
+    margin-bottom: 10px;
+     margin-right:10px ;
+    margin-left: 10px; */
+    
+}
+
+.Image{
+    display: flex;
+    color: chartreuse;
+    background-color: aqua;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex-direction: row;
+    flex-direction: row-reverse;
+    flex-direction: column-reverse;
+    padding: 4px;
+    padding-left: 8px;
+    padding-top: 4px;
+    color: blueviolet;
+}
+
+/* css selectors  class id */  
