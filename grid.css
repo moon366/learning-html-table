@@ -1,0 +1,29 @@
+section {
+    background-image: linear-gradient(black white);
+}
+.card {
+    border: 2px solid black;
+}
+
+.democard {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    background-color: red;
+}
+h3 {
+    text-shadow: 5px, 5px;
+}
+@media(max-width:700px) {
+    .democard {
+        grid-template-columns: auto;
+    }
+    .card {
+        border: 2px ;
+    }
+}

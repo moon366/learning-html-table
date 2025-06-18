@@ -1,0 +1,84 @@
+*{
+   margin: 0; 
+}
+
+
+
+
+/* nav bar */
+.nav{
+    height:3rem ;
+    background-color: red;
+    text-align: center;
+
+    
+}
+.navigation{
+    padding-top: 2vh;
+    padding-left: 120vh;
+}
+.navigation a{
+    text-decoration: none;
+    color: white;
+    padding-left: 2rem;
+    
+}
+/* main section */
+
+.about-me{
+    display: flex;
+    align-items: center;
+}
+.one{
+    
+    background-color: bisque;
+    color: black;
+    text-align: center;
+    padding: 50px;
+}
+
+.two{
+    
+    background-color:burlywood;
+    color: black;
+    text-align: center;
+    height: 10rem; 
+}
+
+.three{
+    
+    background-color:blanchedalmond;
+    color: rgb(5, 3, 3);
+    text-align: center;
+    height: 10rem;
+}
+
+.four{
+    
+    background-color: rgb(129, 252, 252);
+    color: black;
+    text-align: center;
+    height: 10rem;
+}
+
+.five{
+    
+    background-color: chartreuse;
+    color: crimson;
+    text-align: center;
+
+}
+.Email {
+    background-color:chartreuse ;
+    color: black;
+    padding:10px 15px ;
+    text-decoration: none;
+    border-radius: 5px;
+
+}
+.
+/* footer section */
+.footer{
+    height: 5rem;
+    background-color:royalblue ;
+ }

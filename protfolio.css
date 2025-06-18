@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+nav{
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-left: 1vh;
+    padding-right: 1vh;
+
+} .logo a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+.logo1 {
+    list-style-type: none;
+    display: flex;
+}
+.logo1 li {
+    padding-left: 1rem;
+}
+.logo1 li a{
+    text-decoration:none ;
+    color: white;
+    font-size:large ;
+}
+/*main section css*/
+.intro {
+ display: flex;
+ /* background-color: plum; */
+ /* color: rgb(rgb(238, 63, 121), ); */
+ background-image:linear-gradient(plum , pink)
+}
+.intro2 { 
+    height: 50vh;
+    width: 50vh;
+    border-radius: 50%;
+    padding: 15px;
+}
+.intro1 a button{
+color: red;
+background-color:burlywood;
+border-radius:6px ;
+padding: 3px;
+margin-top: 4px;
+margin-left: 3px;
+cursor: pointer;
+}
+.intro1 h2 {
+  color: darkblue;
+}  
+.intro1 p {
+    color: rgb(15, 13, 14);
+}
+.intro1 a button:hover {
+  color: rgb(110, 110, 224);
+  transform: scale(1.1);
+}
+/*main ko about section*/
+.about {
+    background-color:lightcoral;
+    color: black;
+    margin-top: 5px;
+    text-align: center;
+    padding: 5vh;
+    font-style: inherit;
+}
+.about h2 {
+    color: navy;
+}
+/*education section*/
+.education{
+margin-top: 2vh;
+display: flex;
+padding: 4vh;
+background-color: cornflowerblue;
+font-style: inherit;
+}
+.education div  {
+padding-left: 5vh;
+}
+.education div legend button {
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+    padding: 2vh;
+    font-family: 'Gill Sans',
+     'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     
+}
+/*contact section*/
+.contact {
+    color: black;
+    background-color: darkkhaki;
+    padding: 2vh;
+}

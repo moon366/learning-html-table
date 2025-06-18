@@ -1,0 +1,46 @@
+.box {
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    color: white;
+    transform: translate(50px, 90px);
+    transform: rotate(90deg);
+    transform: scale(6, 5);
+    transform: skewX(20deg);
+}
+.box3d{
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    color: white;
+    transform: rotateX(120'angle');
+    transform: rotateX(90'angle');
+    transition: width 2s ease-in ease-out linear ease-in-out 1s;
+}
+.box3d:hover {
+    width: 100px;
+    transform: rotate(360deg);
+}
+@keyframes example {
+    from { background-color: red;}
+    to{ background-color: yellow;}
+}
+div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+}
+/* one part end */
+:root {
+    --text:#050315;
+    --background:#fbfbfe ;
+    --primary:#2f27ce;
+    --secondary:#dedcff;
+    --accent:#433bff;
+}
+.animation{
+    background-color: var(--background);
+    color:var(--primary)
+}
